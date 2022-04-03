@@ -1,0 +1,3 @@
+<template>
+    main layout
+</template>
