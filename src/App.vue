@@ -6,12 +6,12 @@
 
 <template>
   <div>
-     <img alt="Vue logo" src="./assets/logo.png" />
-     <p>
-        <router-link to="/">Home</router-link>
-        &nbsp;
-        <router-link to="/add">Add</router-link>
-     </p>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <p>
+      <router-link to="/">Home</router-link>
+      &nbsp;
+      <router-link to="/add">Add</router-link>
+    </p>
   </div>
   <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite x" /> -->
   <component :is="$route.meta.layout || 'div'"></component>
